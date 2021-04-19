@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ConversionComponent } from './conversion/conversion.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -17,6 +18,8 @@ import { DescriptionComponent } from './description/description.component';
 @NgModule({
   declarations: [
     AppComponent,
+    ConversionComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

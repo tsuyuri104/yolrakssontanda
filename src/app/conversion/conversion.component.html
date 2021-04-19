@@ -1,0 +1,14 @@
+<form action="">
+    <section class="yls-section">
+        <mat-form-field autofilled="false">
+            <mat-label>한국 말 글</mat-label>
+            <input matInput type="text" [(ngModel)]="koreanText.value" name="koreantextvalue">
+        </mat-form-field>
+    </section>
+    <section class="yls-section">
+        <button mat-raised-button color="primary" (click)="convertHansi()">변환<mat-icon>sync</mat-icon></button>
+    </section>
+    <section class="yls-section">
+        <h2>漢詩같은 문서</h2>
+    </section>
+</form>
